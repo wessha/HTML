@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    
+    <form>
+        <table>
+            <tr>
+                <td><label>First Name: *</label></td>
+                <td> <input type="text" name="first name" id="first name"></td>
+            </tr>
+            <tr>
+                <td><label>Last Name: *</label></td>
+                <td> <input type="text" name="last name" id="last name"></td>
+            </tr>
+            <tr>
+                <td><label>Email Address: *</label></td>
+                <td><input type="text" name="Email adress" id="Email address"></td>
+            </tr>
+            <tr>
+                <td><label>password: *</label></td>
+                <td><input type="text" name="Email adress" id="Email address"></td>
+            </tr>
+            <tr>
+                <td><label>Confirm Password: *</label></td>
+                <td><input type="password" name="password" id="password"></td>
+            </tr>
+            <tr>
+                <td><label>Birthday:</label></td>
+                <td><input type="date" name="dob"></td>
+            </tr>
+        </table>
+            <label>Gender Identity:</label>
+        </div>
+        <div>
+            <input type="radio" name="gender" value="Male" id="Male">
+            <label for="Male">Male</label>
+            <input type="radio" name="gender" value="Female" id="Female">
+            <label for="Female">Female</label>
+            <input type="radio" name="gender" value="Non-binary" id="Non-binary">
+            <label for="Non-binary">Non-binary</label>
+            <input type="radio" name="gender" value="I prefer not to answer" id="I prefer not to answer">
+            <label for="I prefer not to answer">I prefer not to answer</label>
+        </div>
+        <div>
+            <label>A short description about myself:</label>
+        </div>
+        <div>
+            <textarea name="comment" id="comment" cols="30" rows="2"></textarea>
+        </div>
+        <div>
+            <label>Favorite Language:</label>
+            <select name="language" id="language">
+                <option value="JavaScript">Javascript</option>
+                <option value="HTML">HTML</option>
+            </select>
+        </div>
+        <div>
+        <input type="checkbox" name="updates" id="udates" checked>
+        <label for="updates">Yes, I would like to receive a periodic email updates</label>
+        </div>
+        <div>
+            <input type="submit" value="create account">
+        </div>
+        <div>
+            <label> * Indecates a reqiured field</label>
+        </div>
+    </form>
+    
+</body>
+</html>
